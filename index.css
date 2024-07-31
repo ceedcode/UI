@@ -17,7 +17,6 @@ height: 80px;
   justify-content: space-between;
   align-items: center;
   z-index: 1;
-
 }
 .logo_img {
   height: 30px;
@@ -62,90 +61,123 @@ height: 80px;
 }
 
 /*!MAIN SECTION*/
-.chair_banner {
+.main_container1{
+  background-color: blue;
   box-sizing: border-box;
-  display: flex;
+  padding: 0 0;
+  height: 35rem;
+  width: 100%;
+ 
+}
+.chair_banner {
+ height: 100%;
+ width: 100%;
+ position: relative;
+  background-color: aqua;
 }
 .chair_image{
-width: 100%;
+height: 100%;
+width:100%;
 }
-.main_container1 {
-  width: 60%;
+.popup_container {
+  width: 40%;
   max-width: 500px;
   background-color: #dfe9f4;
-  border-radius: 15px;
-  padding: 1rem;
+  border-radius: 2em;
+  padding: 1em;
   position: absolute;
-  top: 60%;
+  top: 30%;
   right: 09%;
 }
-.main_container1 h5 {
+.popup_container h5 {
   color: #333333;
-  font-size: 1rem;
+  font-size: 1em;
   font-weight: 800;
 }
-.main_container1 h2 {
+.popup_container h2 {
   color: #054c73;
   line-height: 1.2;
-  font-size: 3.25rem;
+  font-size: 3.25em;
 }
-.main_container1 p {
+.popup_container p {
   color: #333333;
   line-height: 1.5;
-  font-size: 1.125rem;
+  font-size: 1.125em;
 }
 button {
   background-color: #054c73;
+  border: 1px solid #054c73;
   border-radius: 50px;
   color: white;
-  font-size: 1rem;
+  font-size: 1em;
   font-weight: 700;
   text-transform: uppercase;
-  padding: 1rem 2rem;
+  padding: 1em 2em;
 }
-
 /**Main container 2*/
 .main_container2 {
   display: flex;
   justify-content: space-evenly;
-  position: relative;
-  height: 12vh;
-  background-color: #f2f5ff;
+  height: 85px;
+  background-color: #F2F5FF;
 }
 .common {
+  background-color: #F2F5FF;
+  height: 70%;
+  margin: 0.5em 0;
+  width:20%;
   display: flex;
-  position: absolute;
-  align-items: center;
-  text-align: center;
+ justify-content: center;
+ align-items: center;
 }
 
-.common img {
-  width: 100%;
-  max-width: 3rem;
-  height: auto;
+.common_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F2F5FF;
+  width: 30%;
+  height: 100%;
 }
-#delivery {
-  left: 56px;
-  top: 18px;
+.free_logo{
+  background-color: #F2F5FF;
+  height: 90%;
+  width: 90%;
+ margin-right: 15px;
 }
-#support {
-  top: 18px;
+.support_logo{
+  background-color: #F2F5FF;
+  height: 80%;
+  width: 70%;
 }
-#authentic {
-  right: 100px;
-  top: 18px;
+.authentic_logo{
+  background-color: #F2F5FF;
+  height: 75%;
+  width: 70%;
 }
+
 .text {
+  background-color: #F2F5FF;
+  height: 95%;/*yaha pe mai 5em bhi de skta tha but main parent ka height 85px tha tho mai 95% de diya ab wo 85px ka 95% lega*/
+  width:80%;
+  margin-top: 6px ;
   display: flex;
   flex-direction: column;
-  padding-left: 13px;
+  justify-content: space-evenly;
+ 
+ 
 }
 .text span {
+  
+  background-color: #F2F5FF;
   font-weight: 700;
-  font-size: 1.5rem;
+  line-height: 2px;
+  font-size: 1.25em;
   color: #333333;
 }
 .text p{
-  font-weight: 500;
-  font-size: 0.75rem;
+  
+  background-color: #F2F5FF;
+  font-weight: 300;
+  font-size: 0.75em;
 }
