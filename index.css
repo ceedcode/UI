@@ -11,36 +11,46 @@ body {
 }
 /*!Header Section*/
 header {
-  height: 60px;
+height: 80px;
   background-color: #ffffff;
   display: flex;
   justify-content: space-between;
   align-items: center;
   z-index: 1;
-  padding: 0 4%;
+
 }
 .logo_img {
-  height: 25px;
+  height: 30px;
 }
 .furniture_div {
-  margin-left: 4%;
+  margin-left: 3%;
 }
-.nav_container {
-  margin-right: 2%;
-  max-width: 550px;
-  width: 80%;
+.nav_container{
+  margin-right: 1%;
+  height: 75px;
+ width: 75%;
+ min-width: 400px;
+  background-color: #FFFFFF;
 }
 .nav_bar {
+  margin: 0.5%;
+  padding-top: 5px;
+  height: 65px;
+   width: 95%;
+   min-width: 350px;
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
+  background-color: #FFFFFF;
+  
+  
 }
 .nav_bar a {
-  padding: 0 6%;
-  margin-right: 9%;
+ 
   text-decoration: none;
   font-size: 1rem;
-  letter-spacing: 1.5;
-  font-weight: 500;
+  letter-spacing: 1;
+  font-weight: 700;
   color: #333333;
   line-height: auto;
 }
@@ -54,13 +64,11 @@ header {
 /*!MAIN SECTION*/
 .chair_banner {
   box-sizing: border-box;
-  width: 100%;
   display: flex;
 }
-.chair_image {
-  width: 100%;
+.chair_image{
+width: 100%;
 }
-
 .main_container1 {
   width: 60%;
   max-width: 500px;
@@ -133,7 +141,11 @@ button {
   padding-left: 13px;
 }
 .text span {
-  font-weight: 900;
+  font-weight: 700;
   font-size: 1.5rem;
   color: #333333;
+}
+.text p{
+  font-weight: 500;
+  font-size: 0.75rem;
 }
