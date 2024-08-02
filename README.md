@@ -14,7 +14,7 @@ This project is a responsive website for a furniture store, showcasing various p
 
 ## Demo
 
-Check out the live demo of the project: [Furniture Website Demo](#)<br><br><br><br>
+Check out the live demo of the project: [Furniture Website Demo](https://ceedcode.github.io/UI/)<br><br><br><br>
 ![Screenshot (72)](https://github.com/user-attachments/assets/69fd709b-d080-412c-851f-6a42c5a3d316)<br><br><hr>
 ![Screenshot (73)](https://github.com/user-attachments/assets/2668c407-2870-4ec1-9654-85e8d57875b3)<br><br><hr>
 ![Screenshot (74)](https://github.com/user-attachments/assets/1029d2f9-e077-479e-972c-8d65a68d974f)
