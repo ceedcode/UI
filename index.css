@@ -61,6 +61,7 @@ height: 80px;
 }
 
 /*!MAIN SECTION*/
+/**Main Container 1*/
 .main_container1{
   background-color: blue;
   box-sizing: border-box;
@@ -81,7 +82,7 @@ width:100%;
 }
 .popup_container {
   width: 40%;
-  max-width: 500px;
+  min-width: 200px;
   background-color: #dfe9f4;
   border-radius: 2em;
   padding: 1em;
@@ -122,7 +123,6 @@ button {
   background-color: #F2F5FF;
 }
 .common {
-  background-color: #F2F5FF;
   height: 70%;
   margin: 0.5em 0;
   width:20%;
@@ -135,29 +135,24 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #F2F5FF;
   width: 30%;
   height: 100%;
 }
 .free_logo{
-  background-color: #F2F5FF;
   height: 90%;
   width: 90%;
  margin-right: 15px;
 }
 .support_logo{
-  background-color: #F2F5FF;
   height: 80%;
   width: 70%;
 }
 .authentic_logo{
-  background-color: #F2F5FF;
   height: 75%;
   width: 70%;
 }
 
 .text {
-  background-color: #F2F5FF;
   height: 95%;/*yaha pe mai 5em bhi de skta tha but main parent ka height 85px tha tho mai 95% de diya ab wo 85px ka 95% lega*/
   width:80%;
   margin-top: 6px ;
@@ -168,16 +163,307 @@ button {
  
 }
 .text span {
-  
-  background-color: #F2F5FF;
   font-weight: 700;
   line-height: 2px;
   font-size: 1.25em;
   color: #333333;
 }
 .text p{
-  
-  background-color: #F2F5FF;
   font-weight: 300;
   font-size: 0.75em;
 }
+/**Main Container 3*/
+.main_container3{
+  height: 40rem;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.text_container1{
+ height: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 650px;
+}
+.text_container1 h2{
+ color: #333333;
+}
+.text_container1 span{
+ padding-top: 1em;
+ color: #666666;
+}
+.image_container1{
+  height: 80%;
+}
+.image_collection1{
+  margin-left: 3.5em;
+  height: 95%;
+  width: 95%;
+  min-width: 450px;
+  display:flex;
+  justify-content: space-evenly;
+}
+.clock_image{
+  height: 95%;
+  width: 30%;
+padding-top: 3em;
+}
+.pillow_image{
+  height: 95%;
+  width: 30%;
+padding-bottom: 3em;
+}
+.light_image{
+  height: 95%;
+  width: 30%;
+  padding-top: 3em;
+ padding-right: 1px;
+}
+
+/**Main Container 4*/
+.main_container4{
+  background-color: #F2F5FF;
+  height: 35rem;
+ display: flex;
+ justify-content: space-evenly;
+  position: relative;
+}
+.text_container2{
+  height: 45%;
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  position: absolute;
+  top: 10em;
+  left: 5em;
+}
+.text_container2 h2{
+height: 20%;
+font-size: 2.25em;
+color: #333333;
+position: absolute;
+top: 0;
+left:0.5em;
+}
+.text_container2 p{
+height: 50%;
+position: absolute;
+top: 2.5em;
+left: 0.9em;
+color: #666666;
+font-size: 1.3em;
+}
+.text_container2 span{
+  height: 25%;
+  width:35%;
+  position: absolute;
+  top: 10em;
+  left: 1.1em;
+  text-align: center;
+  
+  border-radius: 50px;
+  background-color: #054C73;
+  
+  padding-top: 16px;
+  font-size: 1.1em;
+  font-weight: 600;
+  
+}
+.text_container2 span a{
+  text-decoration: none;
+  color: white;
+}
+.ellipse_container{
+  height: 40%;
+
+  position: absolute;
+  top: 10em;
+  right: 5em;
+}
+.ellipse_image{
+  height: 100%;
+  
+}
+.ladyimage_container{
+height: 90%;
+position: absolute;
+top: 2em;
+right: 9em;
+}
+.lady_image{
+height: 95%;
+}
+
+/**Main Container 5*/
+.main_container5{
+  height: 35rem;
+  background-color: #ffffff;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-bottom: 0.5px solid #666666;
+}
+.text_container3{
+ height: 15%;
+ position: absolute;
+ top: 0.7em;
+ left: 18em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 650px;
+}
+.text_container3 h2{
+ color: #333333;
+}
+.text_container3 span{
+ padding-top: 1em;
+ color: #666666;
+}
+.image_collection2{
+height: 80%;
+width: 90%;
+position: absolute;
+top: 5.5em;
+left: 5.5em;
+  display:flex;
+  justify-content: space-evenly;
+}
+.image_container2{
+  height: 90%;
+  width: 25%;
+  margin: 2em 0;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  
+}
+.dinning_image,
+.living_image,
+.bedroom_image{
+  height: 90%;
+}
+.image_container2 span{
+  height: 8%;
+display: flex;
+justify-content: center;
+}
+.image_container2 span a{
+  text-decoration: none;
+  font-size: 1.25em;
+  font-weight: 600;
+  color: #333333;
+}
+
+/**Main Container 6*/
+.main_container6{
+  height: 40rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.text_container4{
+ height: 10%;
+ margin-top: 0.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 650px;
+}
+.text_container4 h2{
+ color: #333333;
+}
+.text_container4 span{
+ padding-top: 1em;
+ color: #666666;
+}
+.image_collection3{
+height: 90%;
+  display:flex;
+  justify-content: space-evenly;
+}
+.image_container3{
+  height: 95%;
+  width: 28%;
+  margin: 2em 0;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  
+}
+.men_image,
+.office_image,
+.style_room_image{
+  height: 85%;
+}
+.image_container3 span{
+  height: 5%;
+display: flex;
+justify-content: center;
+}
+.image_container3 span a{
+  text-decoration: none;
+  font-size: 1.25em;
+  font-weight: 600;
+  color: #333333;
+}
+.image_container3 p{
+  height: 9%;
+ text-align: center;
+  margin-left: 2.2em;
+  font-size: 0.9em;
+  color: #666666;
+}
+
+/**Main Container 7*/
+.main_container7{
+  background-color: #F2F5FF;
+  height: 20rem;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+.main_container7 h2{
+  margin-top:2em;
+}
+.main_container7 p{
+  height: 24%;
+  width: 32%;
+margin-top: 0.75em;
+  text-align: center;
+  font-size: 1.2em;
+
+}
+.main_container7 form{
+  height: 25%;
+  width: 35%;
+  margin-top: 1.25em;
+  display: flex;
+}
+.email{
+  background-color:#FFFFFF;
+  height: 61%;
+  width: 70%;
+  margin-top: 1.15em;
+padding-left: 1em;
+border: 2px solid #054C73;
+}
+.submit_btn{
+  height: 60%;
+  width: 25%;
+  margin-top: 0.82em;
+  border: 1px solid #054C73;
+  background-color: #054C73;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+/*!Footer Section*/
