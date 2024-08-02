@@ -1,3 +1,4 @@
+
 # Furniture Website
 
 This project is a responsive website for a furniture store, showcasing various products and services. The site includes multiple sections such as home, services, products, gallery, and a newsletter signup. 
@@ -13,10 +14,10 @@ This project is a responsive website for a furniture store, showcasing various p
 
 ## Demo
 
-Check out the live demo of the project: [Furniture Website Demo](#)
-<img src=""C:\Users\singh\Pictures\Screenshots\Screenshot (72).png""/>
-<img src=""/>
-<img src=""/>
+Check out the live demo of the project: [Furniture Website Demo](#)<br><br><br><br>
+![Screenshot (72)](https://github.com/user-attachments/assets/69fd709b-d080-412c-851f-6a42c5a3d316)<br><br><hr>
+![Screenshot (73)](https://github.com/user-attachments/assets/2668c407-2870-4ec1-9654-85e8d57875b3)<br><br><hr>
+![Screenshot (74)](https://github.com/user-attachments/assets/1029d2f9-e077-479e-972c-8d65a68d974f)
 
 ## Features
 
@@ -44,7 +45,7 @@ To run this project locally:
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/furniture-website.git
+    git clone https://github.com/ceedcode/furniture-website.git
     ```
 
 2. Navigate to the project directory:
@@ -63,20 +64,4 @@ Planned updates include:
 - Utilizing Bootstrap for improved layout and design
 - Implementing Tailwind CSS for utility-first styling
 
-## Contributing
 
-Contributions are welcome! Please follow these steps to contribute:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/your-feature-name`).
-3. Commit your changes (`git commit -m 'Add some feature'`).
-4. Push to the branch (`git push origin feature/your-feature-name`).
-5. Open a Pull Request.
-
-## License
-
-This project is open-source and available under the [MIT License](LICENSE).
-
----
-
-Feel free to adjust any details to better fit your project specifics.
