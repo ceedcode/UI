@@ -45,7 +45,7 @@ To run this project locally:
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/ceedcode/furniture-website.git
+    git clone https://github.com/ceedcode/furniture-website-ui.git
     ```
 
 2. Navigate to the project directory:
